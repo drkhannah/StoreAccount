@@ -35,9 +35,9 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* StoreAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StoreAccountTests.m */; };
 		54EC0A36FEDEABD2C4E29070 /* Pods_StoreAccountTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A727F2BE35A6F9EA2028E99D /* Pods_StoreAccountTests.framework */; };
-		65D4DAA22021170D00EA7E3B /* GethAccountsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D4DAA02021170D00EA7E3B /* GethAccountsBridge.m */; };
-		65D4DAA32021170D00EA7E3B /* GethAccountsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4DAA12021170D00EA7E3B /* GethAccountsManager.swift */; };
 		65D4DAA4202118B800EA7E3B /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		65FA2070202128F600B22FDB /* GethAccountsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA206E202128F600B22FDB /* GethAccountsBridge.m */; };
+		65FA2071202128F600B22FDB /* GethAccountsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FA206F202128F600B22FDB /* GethAccountsManager.swift */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		90F2EC3790B06BD341DE5BCE /* Pods_StoreAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB30FE3B5CA8DA234F53D8ED /* Pods_StoreAccount.framework */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -345,9 +345,9 @@
 		2D02E4901E0B4A5D006451C7 /* StoreAccount-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StoreAccount-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		65D4DA9F2021170D00EA7E3B /* AddressStoreage-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AddressStoreage-Bridging-Header.h"; path = "../../../../../Desktop/AddressStoreage-Bridging-Header.h"; sourceTree = "<group>"; };
-		65D4DAA02021170D00EA7E3B /* GethAccountsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GethAccountsBridge.m; path = ../../../../../Desktop/GethAccountsBridge.m; sourceTree = "<group>"; };
-		65D4DAA12021170D00EA7E3B /* GethAccountsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GethAccountsManager.swift; path = ../../../../../Desktop/GethAccountsManager.swift; sourceTree = "<group>"; };
+		65FA206D202128F600B22FDB /* AddressStoreage-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressStoreage-Bridging-Header.h"; sourceTree = "<group>"; };
+		65FA206E202128F600B22FDB /* GethAccountsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GethAccountsBridge.m; sourceTree = "<group>"; };
+		65FA206F202128F600B22FDB /* GethAccountsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GethAccountsManager.swift; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A727F2BE35A6F9EA2028E99D /* Pods_StoreAccountTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoreAccountTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -505,6 +505,9 @@
 		13B07FAE1A68108700A75B9A /* StoreAccount */ = {
 			isa = PBXGroup;
 			children = (
+				65FA206D202128F600B22FDB /* AddressStoreage-Bridging-Header.h */,
+				65FA206E202128F600B22FDB /* GethAccountsBridge.m */,
+				65FA206F202128F600B22FDB /* GethAccountsManager.swift */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -598,9 +601,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				65D4DA9F2021170D00EA7E3B /* AddressStoreage-Bridging-Header.h */,
-				65D4DAA02021170D00EA7E3B /* GethAccountsBridge.m */,
-				65D4DAA12021170D00EA7E3B /* GethAccountsManager.swift */,
 				13B07FAE1A68108700A75B9A /* StoreAccount */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* StoreAccountTests */,
@@ -1249,10 +1249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D4DAA32021170D00EA7E3B /* GethAccountsManager.swift in Sources */,
-				65D4DAA22021170D00EA7E3B /* GethAccountsBridge.m in Sources */,
+				65FA2070202128F600B22FDB /* GethAccountsBridge.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				65FA2071202128F600B22FDB /* GethAccountsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
